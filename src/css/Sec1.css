@@ -1,0 +1,87 @@
+/* -------------start img--------- */
+.ig{
+    margin: 0 30px;
+}
+.child{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    height: 25rem;
+    overflow: hidden;
+}
+.pic {
+    background-image: url('https\:\/\/avada\.theme-fusion\.com\/retail\/wp-content\/uploads\/sites\/113\/2021\/02\/hero-3\.jpg');
+}
+.pic1 {
+    background-image: url('https\:\/\/avada\.theme-fusion\.com\/retail\/wp-content\/uploads\/sites\/113\/2021\/02\/hero-2\.jpg');
+}
+.pic , .pic1 {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: all ease 1s;
+}
+.pic:hover,
+.pic1:hover{
+    transform: scale(1.1,1.1);
+    transition: all ease 1s;
+}
+.text h2 {
+    font-size: 40px;
+    padding-bottom: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+/* -------------end img--------- */
+/* --------------start icon-------- */
+.nn {
+     background-repeat: repeat;
+     background-color:var(--mainColor);
+     background-image: url("https://avada.theme-fusion.com/retail/wp-content/uploads/sites/113/2021/02/pattern-5.png");
+     height: 13rem;
+     justify-content: center;
+     align-items: center;
+     margin: 0 30px;
+}
+.ic a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.ic a:hover{
+    color: rgb(123, 88, 17);
+    font-weight: bold;
+    transition: all ease 1s;
+   
+}
+.i{
+    padding: 10px;
+}
+.more{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+/* --------------end icon-------- */
+/* ---------------start input search--------- */
+.search{
+    background-color: transparent;
+    border: none;
+    width: 25rem;
+    height: 3rem;
+    padding:0 30px 0 50px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border-bottom: 2px solid rgb(80, 78, 78);
+    border-radius: 10px;
+}
+.search::placeholder{
+    color: white;
+}
+.search:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+/* ---------------end input search--------- */

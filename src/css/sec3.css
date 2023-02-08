@@ -1,0 +1,130 @@
+/* -----------------------start collection---------- */
+.lection{
+    margin: 3rem 30px;
+    min-height: 36rem;
+    background-color: #eee;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.collection {
+    color: var(--mainColor);
+    padding: 30px;
+}
+.collection h2{
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+   line-height: 35px;
+   font-size: 3.5vw;
+}
+.collection span a:hover{
+    color: var(--mainColor);
+}
+.lection .lection-pic1 img,.lection-pic2 img,.lection-pic3 img{
+    width: 100%;
+    height: 90%;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 1rem;
+}
+/* -----------------------end collection---------- */
+
+/* ----------------------start new--------------- */
+.new{
+    margin: 5rem 20px;
+    justify-content: space-between;
+    --bs-gutter-x: .5rem;
+}
+.new2{
+    align-content: space-between;
+    --bs-gutter-x: .5rem;
+}
+.new-child{
+    position: relative;
+    overflow: hidden;
+    padding-top: 1rem;
+}
+.new .new-pic1{
+    background-image: url('https\:\/\/avada\.theme-fusion\.com\/retail\/wp-content\/uploads\/sites\/113\/2021\/02\/hero-8\.jpg');
+    height: 52rem;
+}
+.new .new-pic2{
+    background-image: url('https\:\/\/avada\.theme-fusion\.com\/retail\/wp-content\/uploads\/sites\/113\/2021\/02\/hero-6\.jpg');
+    height: 25rem;
+}
+.new .new-pic3{
+    background-image: url('https\:\/\/avada\.theme-fusion\.com\/retail\/wp-content\/uploads\/sites\/113\/2021\/03\/hero-10\.jpg');
+    height: 25rem;
+}
+.new .new-pic1 ,.new-pic2,.new-pic3{
+    background-position: center;
+    background-size: cover;
+    transition: all ease 1s;
+}
+.new .new-pic1:hover .fil ,.new-pic2:hover .fil,.new-pic3:hover .fil{
+    transition: all ease 1s;
+    opacity: 1;
+}
+.new .new-pic1:hover ,.new-pic2:hover,.new-pic3:hover {
+    transform: scale(1.1 , 1.1);
+} 
+.fil{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(201, 201, 222, 0.251);
+    opacity: 0;
+    overflow: hidden;
+}
+
+/* ----------------------end new--------------- */
+/* -------------------start backgruond----------- */
+.backgruond{
+    padding: 6rem 2rem 5rem;
+    text-align: center;
+    height: 43rem;
+    background-color: var(--mainColor);
+    color: white;
+    background-size: cover;
+    background-image: url("https://avada.theme-fusion.com/retail/wp-content/uploads/sites/113/2021/02/line-6.svg")
+    
+}
+.backgruond .the-blog{
+    height: 25rem;
+    padding-top: 3rem;
+    justify-content: space-between;
+}
+.backgruond .the-blog .parent-blog{
+    width: 32%;
+    position: relative;
+}
+.the-blog .parent-blog .backgruond-pic1{
+    background-image:url('https://avada.theme-fusion.com/retail/wp-content/uploads/sites/113/2021/03/blog-7.jpg');
+}
+.the-blog .parent-blog .backgruond-pic2{
+    background-image:url('https://avada.theme-fusion.com/retail/wp-content/uploads/sites/113/2021/03/blog-5.jpg');
+}
+.the-blog .parent-blog .backgruond-pic3{
+    background-image:url('https://avada.theme-fusion.com/retail/wp-content/uploads/sites/113/2021/02/blog-3.jpg');
+}
+.backgruond-pic1,.backgruond-pic2,.backgruond-pic3{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 55%;
+}
+.backgruond .the-blog  a{
+    text-decoration: none;
+    color: white;
+}
+.backgruond .the-blog .parent-blog .backgruond-text{
+    padding: 3rem;
+    width: 75%;
+    text-align: start;
+    position: absolute;
+    background-color:var(--mainColor);
+    top: 30%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.backgruond .the-blog .parent-blog .backgruond-text .back-text p:hover{
+    color: rgb(204, 153, 87);
+}

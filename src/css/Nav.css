@@ -1,0 +1,139 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+}
+:root{
+    --mainColor: #0d244c;
+}
+.center-position{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+#btnUp{
+    background-color:rgba(0, 0, 0, .8);
+    color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border: transparent;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000;
+    display: none;
+}
+.p{
+    padding: 10px 0;
+    font-size: 14px;
+}
+.link{
+    color: rgb(94, 41, 41);
+}
+.link:hover{
+    color: rgb(94, 41, 41);
+}
+.icons a{
+    color:var(--mainColor) ;
+    
+}
+.icons a:hover{
+    color: rgb(107, 107, 111);
+    transition: all ease 1s;
+    
+}
+.icons{
+    text-align: right;
+}
+.parent hr{
+    margin: 0;
+    padding: 0;
+}
+.parent {
+    margin: 0 20px;
+}
+/* =====================================start navbar========================== */
+.logo{
+    margin-right: 9rem;
+}
+.btn{
+    color: var(--mainColor);
+}
+.Nav{
+    background-color: white;
+    position: sticky;
+    top: 0.1px;
+    z-index: 1000;
+    padding: 15px 20PX ;
+    margin: revert;
+}
+.Nav ul li {
+    padding: 0 12px;
+    color: black;
+}
+.Nav ul li a {
+    color: var(--mainColor);
+    font-weight: 480;
+}
+.Nav ul li a:hover {
+    color: var(--mainColor);
+}
+.span a{
+    color: var(--mainColor);
+}
+.span a:hover{
+    color: var(--mainColor);
+}
+/* drowpdowen  shop*/
+.shop{
+    min-height: 17rem;
+    border: transparent;
+}
+.shop .dropdown-item{
+    padding: 13px;
+}
+.shop .dropdown-item:hover{
+    background-color:var(--mainColor);
+    transition: all ease 1s;
+    color: white;
+}
+.dropdown-menu[data-bs-popper]{
+    top: 100%;
+    left: auto;
+    margin-top: .5rem;
+}
+/* drowpdowen  blog*/
+.blog{
+    min-height: 6rem;
+    border: transparent;
+}
+.blog .dropdown-item{
+    padding: 13px;
+}
+.blog .dropdown-item:hover{
+    background-color:var(--mainColor);
+    transition: all ease 1s;
+    color: white;
+}
+/* -------------start form------------ */
+nav .form1{
+    height: 250px;
+    width: 400px;
+    border: 1px solid black;
+    padding: 1rem;
+    display: none;
+}
+
+/* =====================================end navbar========================== */
+
+@media(max-width:768px) {
+    .logo{
+        margin-right: 0;
+       
+    }
+}
