@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Avada2/static/css/main.9442d388.css",
+    "main.js": "/Avada2/static/js/main.b80c3726.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Avada2/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Avada2/index.html",
+    "main.9442d388.css.map": "/Avada2/static/css/main.9442d388.css.map",
+    "main.b80c3726.js.map": "/Avada2/static/js/main.b80c3726.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Avada2/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9442d388.css",
+    "static/js/main.b80c3726.js"
+  ]
+}
