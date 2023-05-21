@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/Avada2/static/css/main.9442d388.css",
+    "main.css": "/Avada2/static/css/main.778d09b6.css",
     "main.js": "/Avada2/static/js/main.b80c3726.js",
     "static/js/787.28cb0dcd.chunk.js": "/Avada2/static/js/787.28cb0dcd.chunk.js",
+    "static/media/man1.jpg": "/Avada2/static/media/man1.fb7fa4afa8a623674aba.jpg",
+    "static/media/man2.jpg": "/Avada2/static/media/man2.566d7430aaef97b8bb7e.jpg",
+    "static/media/woman.jpg": "/Avada2/static/media/woman.c93474e4c1b227c6d9c4.jpg",
+    "static/media/woman3.jpg": "/Avada2/static/media/woman3.e5c045d9d34b109f6191.jpg",
+    "static/media/woman2.jpg": "/Avada2/static/media/woman2.9c1038d56626ee742b8e.jpg",
     "index.html": "/Avada2/index.html",
-    "main.9442d388.css.map": "/Avada2/static/css/main.9442d388.css.map",
+    "main.778d09b6.css.map": "/Avada2/static/css/main.778d09b6.css.map",
     "main.b80c3726.js.map": "/Avada2/static/js/main.b80c3726.js.map",
     "787.28cb0dcd.chunk.js.map": "/Avada2/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9442d388.css",
+    "static/css/main.778d09b6.css",
     "static/js/main.b80c3726.js"
   ]
 }
